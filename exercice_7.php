@@ -16,12 +16,12 @@ and open the template in the editor.
             <p>Créer trois variables lastname , firstname et age et les initialiser avec les valeurs de votre choix. Attention age est de type entier.<br />Afficher : "Bonjour" + lastname + firstname + ",tu as" + age + "ans".</p>
         </div>
         <div>
-            <p><?php
-                $lastName = 'Côté';
-                $firstName = 'Fabien';
-                $age = 29;
-                echo 'Bonjour ' . $firstName . ' ' . $lastName .", tu as " . $age . " ans.";
-            ?></p>
+            <?php
+            $lastName = 'Côté';
+            $firstName = 'Fabien';
+            $age = 29;
+            ?>
+            <p>Bonjour <?= $firstName; ?> <?= $lastName; ?>, tu as <?= $age; ?> ans.</p>
         </div>
     </body>
 </html>

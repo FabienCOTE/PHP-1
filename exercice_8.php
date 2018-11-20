@@ -16,12 +16,12 @@ and open the template in the editor.
             <p>Créer 3 variables.<br />Dans la première mettre le résultat de l'opération 3 + 4.<br />Dans la deuxième mettre le résultat de l'opération 5 * 20.<br />Dans la troisième mettre le résultat de l'opération 45 / 5.<br />Afficher le contenu des variables.</p>
         </div>
         <div>
-            <p><?php
-                $number1 = 3 + 4;
-                $number2 = 5 * 20;
-                $number3 = 45 / 5;
-                echo 'Résultat 1 : ' . $number1 . '<br />Résultat 2 : ' . $number2 . '<br />Résultat 3 : ' . $number3;
-            ?></p>
+            <?php
+            $number1 = 3 + 4;
+            $number2 = 5 * 20;
+            $number3 = 45 / 5;
+            ?>
+            <p>Résultat 1 : <?= $number1; ?><br />Résultat 2 : <?= $number2; ?><br />Résultat 3 : <?= $number3; ?></p>
         </div>
     </body>
 </html>

@@ -16,12 +16,14 @@ and open the template in the editor.
             <p>Créer une variable de type int. L'initialiser avec rien. Afficher sa valeur.<br />Donner une valeur à cette variable et l'afficher.</p>
         </div>
         <div>
-            <p><?php
+            <p>
+                <?php
                 $number;
-                echo $number;
+                var_dump($number);
                 $number = 5;
                 echo $number;
-            ?></p>
+                ?>
+            </p>
         </div>
     </body>
 </html>

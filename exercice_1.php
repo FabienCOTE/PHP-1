@@ -16,10 +16,12 @@ and open the template in the editor.
             <p>Créer une variable name et l'initialiser avec la valeur de votre choix. Afficher son contenu.</p>
         </div>
         <div>
-            <p><?php
+            <p>
+                <?php
                 $name = 'Fabien';
                 echo $name;
-            ?></p>
+                ?>
+            </p>
         </div>
     </body>
 </html>

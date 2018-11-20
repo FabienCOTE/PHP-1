@@ -16,14 +16,22 @@ and open the template in the editor.
             <p>Créer une variable km. L'initialiser à 1. Afficher son contenu.<br />Changer sa valeur par 3. Afficher son contenu.<br />Changer sa valeur par 125. Afficher son contenu.</p>
         </div>
         <div>
-            <p><?php
+            <p>
+                <?php
                 $km = 1;
-                echo $km . '<br />';
+                echo $km;
+                ?>
+                <br />
+                <?php
                 $km = 3;
-                echo $km . '<br />';
+                echo $km;
+                ?>
+                <br />
+                <?php
                 $km = 125;
                 echo $km;
-            ?></p>
+                ?>
+            </p>
         </div>
     </body>
 </html>

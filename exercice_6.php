@@ -16,10 +16,12 @@ and open the template in the editor.
             <p>Créer une variable name et l'initialiser avec la valeur de votre choix.<br />Afficher : "Bonjour" + name + ", comment vas tu ?".</p>
         </div>
         <div>
-            <p><?php
+            <p>
+                <?php
                 $name = 'Fabien';
-                echo 'Bonjour ' . $name . ", comment vas tu ?";
-            ?></p>
+                echo 'Bonjour ' . $name . ', comment vas tu ?';
+                ?>
+            </p>
         </div>
     </body>
 </html>
